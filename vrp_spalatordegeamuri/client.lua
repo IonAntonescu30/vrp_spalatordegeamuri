@@ -89,6 +89,9 @@ while true do
                     if spots <= 2 then 
                         vRP.playAnim({false, {task="WORLD_HUMAN_MAID_CLEAN"}, false})
                         vRP.notify({"~g~Ai inceput sa speli geamul"})
+                                else
+                        vRP.playAnim({false, {task="WORLD_HUMAN_MAID_CLEAN"}, false})
+                        vRP.notify({"~g~Ai inceput sa speli geamul"})
                     end
                     SetTimeout(10000, function()
                     vRP.stopAnim({false})
